@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, red);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(167, 152, 152, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid red;
+    padding-bottom: 15px;
+}
+
+ul {
+    background: whitesmoke;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+ul li a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+ul li a:hover {
+    color: #d32f2f;
+    background: #fff;
+    border-radius: 5px;
+    transform: translateX(10px);
+}
+
+ul li::before {
+    content: "🎬 ";
+    margin-right: 10px;
+}
+
+.part {
+    margin: 30px 0;
+    padding: 25px;
+    border: none;
+    background: linear-gradient(to right, white, whitesmoke);
+    border-radius: 12px;
+}
+
+
+
+.part h2 {
+    color: tomato;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 5px solid #cf1d1d;
+}
+
+.part p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #070707;
+    margin: 15px 0;
+}
+
+.part img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+
+.part p a {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+.part hr {
+    width: 200px;
+    margin: 20px 0;
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #d32f2f, transparent);
+}
+
+.part p a:last-of-type {
+    background: orange;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+}
